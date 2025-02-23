@@ -1,5 +1,15 @@
- Hello, World!
- Welcome, Student
+ function checkEvenOdd(number) {
+    if (number % 2 === 0) {
+        console.log(number + " is Even");
+    } else {
+        console.log(number + " is Odd");
+    }
+}
+
+// Example usage:
+let num = parseInt(prompt("Enter a number:"));
+checkEvenOdd(num);
+
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
@@ -14,4 +24,3 @@ VM335:2 7
 VM335:2 8
 VM335:2 9
 VM335:2 10
-undefined
