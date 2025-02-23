@@ -1,0 +1,30 @@
+function checkEvenOdd(number) {
+    if (number % 2 === 0) {
+        console.log(number + " is Even");
+    } else {
+        console.log(number + " is Odd");
+    }
+}
+
+// Ask user for input
+let num = parseInt(prompt("Enter a number:"));
+checkEvenOdd(num);
+
+// Print numbers from 1 to 10
+console.log("Numbers from 1 to 10:");
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or Odd & Loop</title>
+</head>
+<body>
+    <h1>Open the Console (F12 → Console Tab)</h1>
+    <script src="script.js"></script>
+</body>
+</html>
